@@ -1,0 +1,31 @@
+Делаем светофор из трёх светодиодов:
+
+int B = 2 // первый (красный) светодиод на второй пин
+int C = 3 // второй (желтый) светодиод на третий пин
+int D = 4 // третий (синий/зеленый) светодиод на четвертый пин
+void setup()
+{
+pinMode(B, OUTPUT);
+pinMode(C, OUTPUT);
+pinMode(D, OUTPUT);
+}
+
+void setup(){
+
+digitalWrite(B, HIGH);
+delay(5000);
+digitalWrite(C, HIGH);
+delay(3000);
+digitalWrite(B, LOW);
+digitalWrite(C, LOW);
+digitalWrite(D, HIGH);
+delay(2000);
+digitalWrite(D, LOW);
+delay(150);
+digitalWrite(D, HIGH):
+delay(150);
+digitalWrite(D, LOW)
+// end of code
+
+
+}
